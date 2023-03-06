@@ -1,0 +1,26 @@
+<div class="bg p-4">
+
+    <div class="container-fluid  col-md-6 p-4 rounded-4" >
+        <h1 class="h2">Registration form</h1> 
+        <form class="form-group " [formGroup]="registrationForm">
+            <div class="row">
+                <div >
+                    
+                    <div class="form-group">
+                    <label class="form-label" for="First Name"> First Name :</label>
+            
+                <input class="form-control" type="text" formControlName="firstName" name="firstName"> 
+            </div>
+                
+                 <label class="form-label" for="First Name"> Last Name :</label>
+                <input class="form-control " type="text" formControlName="lastName" name="LastName"> 
+                
+                <label class="form-label" for="First Name"> Email Id:</label> 
+                <input class="form-control" type="email" formControlName="emailId" name="emailId">  <br> 
+                
+                <button class="btn mb-4 btn-dark d-grid float-end col-6 mx-auto"  [routerLink]="['list']" (click)="registration()">Submit</button> 
+            </div>
+        </div>
+    </form>
+</div>
+</div>

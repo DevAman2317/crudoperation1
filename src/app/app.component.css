@@ -1,0 +1,9 @@
+div{ 
+    display: flex;
+    height: 100px;
+    background-color: rgb(184, 183, 183);
+    justify-content: space-evenly;
+    align-items: center;
+}  
+
+   
